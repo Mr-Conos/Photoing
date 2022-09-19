@@ -1,0 +1,130 @@
+/* The CSS isn't really organized in any way but it works soooo
+Im not changing it lmao */
+
+
+html, #App{
+  background-image: url("../public/25647.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.the_button {
+  height: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.another_button {
+  margin-top: 10%;
+}
+
+
+.another_button input{
+  background-color: #86634ccd;
+  display: table;
+  margin: 0 auto;
+  border: none;
+  border-radius: 50px;
+}
+.the_content {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 25px;
+  background: #86634ccd;
+  padding: 0;
+}
+
+.logo {
+  color: white;
+  font-size: 50px;
+  margin: 0;
+  padding-top: 2px;
+}
+
+.content1 {
+  margin: 0;
+  color: white;
+  font-size: 20px;
+}
+
+.content2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+
+.more_content {
+  margin: 0 auto;
+}
+
+.another_button p{
+  margin: 20px;
+  font-size: 20px;
+}
+
+.another_button input:hover{
+  transition: all 0.3s ease 0s;
+  background-color: #674c3acd;
+}
+
+
+li,a,button,input {
+  
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 5%;
+  background-color: #86634ccd;
+  
+
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 25px;
+  
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  font-size: 20px;
+}
+.nav_links li a:hover {
+  color: rgb(177, 177, 177);
+}
+
+footer {
+  width: 100%;
+  background-color: #86634ccd;
+  position: fixed;
+  bottom: 0;
+}
+  
+.foot {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 5px;
+  text-align: center;
+}
+  
+.foot p{
+  color: #fff;
+  font-size: 1rem;
+}
+  
+.foot p:hover{
+  color: rgb(177, 177, 177);
+  }
